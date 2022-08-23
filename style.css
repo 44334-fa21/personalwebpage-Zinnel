@@ -1,1 +1,64 @@
 /*Personal Web Page Style Sheet */
+header, nav, main, footer { display: block; }
+
+body {background-color: #200b76;
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0px;
+      color: #ECF8F7;}
+
+header {background-color: #200b76;
+        background-image: url(Banner.png);
+        background-repeat: no-repeat;
+        height: 250px;}
+
+#banner{
+    margin: 0 auto;
+    height: 250px;
+    width: 960px;
+    /*courtesy Rohit416*/}
+
+header h1 {text-indent: 1000%;
+           white-space: nowrap;
+           overflow: hidden;}
+
+ul {background-color: #CBCECE;
+    font-size: 1.4em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    border-radius: 15px;
+    padding-right: 5px;}
+
+#webwrap {margin: 0 auto;
+          width: 90%;
+          min-width: 960px;
+          max-width: 1200px;
+          background-color: #20C6BE;
+          padding-bottom: 15em;}
+
+#listleft {float: left;
+           padding-left: 6em;}
+
+#listright {float: right;
+            padding-right: 6em;}
+
+ul a {text-decoration: none;}
+
+ul a:link {color: #ECF8F7;}
+ul a:active {color: #41F0E2;}
+ul a:hover {color: #AA10E1;}
+ul a:visited {color: #200b76;}
+
+#quote {padding-top: 14em;
+        }
+
+#imageleft {float: left;
+           padding-left: 14em;}
+
+#imageright {float: right;
+           padding-right: 14em;}
+
+figcaption {padding-bottom: 3em;
+            font-size: 1.4em;}
+
+blockquote {font-size: 1.6em;
+            padding-bottom:1em;}
